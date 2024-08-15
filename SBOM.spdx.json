@@ -1,0 +1,35 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2024-08-20T17:36:34Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "imx-camera-sw-pack-LF6.6.3_P24.1",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/imx-camera-sw-pack",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-fefeada8-c6c1-421c-82ae-da7746d9c3ba",
+      "name": "imx-camera-sw-pack",
+      "versionInfo": "LF6.6.3_P24.1",
+      "licenseConcluded": "(MIT)",
+      "licenseDeclared": "(MIT)",
+      "downloadLocation": "https://github.com/nxp-imx-support/imx-camera-sw-pack",
+      "originator": "Organization: NXP",
+      "supplier": "Organization: NXP",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-fefeada8-c6c1-421c-82ae-da7746d9c3ba"
+    }
+  ]
+}
