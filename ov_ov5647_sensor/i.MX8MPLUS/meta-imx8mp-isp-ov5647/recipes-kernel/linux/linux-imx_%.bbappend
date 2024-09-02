@@ -1,6 +1,6 @@
 DESCRIPTION = "Add OV5647 Camera Module enablement in linux-imx"
 
-SRC_OV5647 = "https://github.com/nxp-imx-support/imx-camera-sw-pack-source.git;protocol=https"
+SRC_OV5647 = "git://github.com/nxp-imx-support/imx-camera-sw-pack-source.git;protocol=https"
 SRC_BRANCH = "LF6.6.3_P24.1"
 
 SRC_URI += " \

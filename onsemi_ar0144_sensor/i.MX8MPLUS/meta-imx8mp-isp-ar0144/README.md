@@ -1,7 +1,7 @@
 # i.MX Camera Software Pack - Meta Layers
 This layer enables AR0144 camera sensor utilizing i.MX 8M Plus internal ISP (Image Signal Processor).
 
-Fetch source files from [imx8mp-camera-sw-pack-ar0144](https://github.com/nxp-imx-support/imx-camera-sw-pack-source/imx8mp-camera-sw-pack-ar0144.git) repository and build a *imx-image-full* Yocto Image
+Fetch source files from [imx8mp-camera-sw-pack-ar0144](https://github.com/nxp-imx-support/imx-camera-sw-pack-source/tree/LF6.6.3_P24.1/imx8mp-camera-sw-pack-ar0144) repository and build a *imx-image-full* Yocto Image
 
 ## 1. Compile i.MX 8M Plus EVK Yocto Image with AR0144 enabled
     $ source sources/meta-imx8mp-isp-ar0144/setup/setup-env-imx8mp-ar0144 -b build

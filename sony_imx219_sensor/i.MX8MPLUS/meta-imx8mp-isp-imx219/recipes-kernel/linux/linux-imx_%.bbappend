@@ -1,6 +1,6 @@
 DESCRIPTION = "Add IMX219 Camera Module enablement in linux-imx"
 
-SRC_IMX219 = "https://github.com/nxp-imx-support/imx-camera-sw-pack-source.git;protocol=https"
+SRC_IMX219 = "git://github.com/nxp-imx-support/imx-camera-sw-pack-source.git;protocol=https"
 SRC_BRANCH = "LF6.6.3_P24.1"
 
 SRC_URI += " \

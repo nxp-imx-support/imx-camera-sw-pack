@@ -1,7 +1,7 @@
 # i.MX Camera Software Pack - Meta Layers
 This layer enables IMX219 camera sensor on i.MX 8M Plus EVK utilizing internal ISP (Image Signal Processor). 
 
-Fetch source files from repository [imx8mp-camera-sw-pack-imx219](https://github.com/nxp-imx-support/imx-camera-sw-pack-source/imx8mp-camera-sw-pack-imx219.git) and build a *imx-image-full* Yocto Image 
+Fetch source files from repository [imx8mp-camera-sw-pack-imx219](https://github.com/nxp-imx-support/imx-camera-sw-pack-source/tree/LF6.6.3_P24.1/imx8mp-camera-sw-pack-imx219) and build a *imx-image-full* Yocto Image 
 
 ## 1. Compile i.MX 8M Plus EVK Yocto Image with IMX219 enabled
      $ source sources/meta-imx8mp-isp-imx219/setup/setup-env-imx8mp-imx219 -b build

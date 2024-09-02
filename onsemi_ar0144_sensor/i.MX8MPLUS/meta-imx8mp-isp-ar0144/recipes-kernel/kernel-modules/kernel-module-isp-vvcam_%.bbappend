@@ -1,6 +1,6 @@
 DESCRIPTION = "Add AR0144 Camera Module enablement in isp-vvcam"
 
-SRC_AR0144 = "https://github.com/nxp-imx-support/imx-camera-sw-pack-source.git;protocol=https"
+SRC_AR0144 = "git://github.com/nxp-imx-support/imx-camera-sw-pack-source.git;protocol=https"
 SRC_BRANCH = "LF6.6.3_P24.1"
 
 SRC_URI += " \
